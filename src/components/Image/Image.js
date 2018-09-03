@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-class Image extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+class Image extends Component {
+  // constructor(props) {
+  //   super(props);
+  // }
 
   calcPositionX = () => {
     return this.props.x * this.props.width * (-1) + 'px';

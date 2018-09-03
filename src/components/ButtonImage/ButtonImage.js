@@ -30,8 +30,9 @@ export default function ButtonImage(props) {
         y={0} x={index}
         width={size} height={size}
         backgroundHeight={size}
-        file="img/buttons.png"
+        file="img/botoes.png"
       />
     </div>
   );
+
 }
