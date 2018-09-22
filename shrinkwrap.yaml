@@ -2,7 +2,7 @@ dependencies:
   react: 16.4.2
   react-dom: 16.4.2
   react-scripts: 1.1.4
-  react-toastify: 4.3.1
+  react-toastify: 4.2.3
 packages:
   /abab/1.0.4:
     dev: false
@@ -3260,6 +3260,8 @@ packages:
     engines:
       node: '>=0.8.0'
     optional: true
+    os:
+      - darwin
     requiresBuild: true
     resolution:
       integrity: sha512-z8H8/diyk76B7q5wg+Ud0+CqzcAF3mBBI/bA5ne5zrRUUIvNkJY//D3BqyH571KuAC4Nr7Rw7CjWX4r0y9DvNg==
@@ -6353,7 +6355,7 @@ packages:
       fsevents: 1.2.4
     resolution:
       integrity: sha512-UVZIujEIT9BGbx+NGvyfS92eOrNIIpqqFi1FP7a0O9l94A/XV7bhPk70SfDKaXZouCX81tFdXo0948DjhCEgGw==
-  /react-toastify/4.3.1:
+  /react-toastify/4.2.3:
     dependencies:
       classnames: 2.2.6
       prop-types: 15.6.2
@@ -6363,7 +6365,7 @@ packages:
       react: '>=15.0.0'
       react-dom: '>=15.0.0'
     resolution:
-      integrity: sha512-sGnYArfgHk4L0dSBZeZLPEw2t0o6JbqpDL0u4UlZfng48proqhzgYEV8Xgieh/Xki2d2PqqBaRVcEzaDCK/6JQ==
+      integrity: sha512-JTZk7OXX+seIvZueVYehS4t+srvryTGoggk5PAMiXcSFLPin/4mgMuD6j2qicueJFEu6OfGY6glPQoQWX/ZeSg==
   /react-transition-group/2.4.0:
     dependencies:
       dom-helpers: 3.3.1
@@ -8201,4 +8203,4 @@ specifiers:
   react: ^16.4.2
   react-dom: ^16.4.2
   react-scripts: 1.1.4
-  react-toastify: ^4.3.1
+  react-toastify: ^4.2.3
